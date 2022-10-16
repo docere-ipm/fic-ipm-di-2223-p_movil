@@ -42,17 +42,17 @@ uso_:
 
 - **Who is this for**: Grupos de prácticas de la asignatura _IPM_.
 
-- **What you'll learn**: Diseño de interfaces adapativo, composición
+- **What you'll learn**: Diseño de interfaces adaptativo, composición
   de Widgets, concurrencia con funciones asíncronas, testing
   end-to-end con interfaces gráficas.
 
-- **What you'll build**: Construireis una aplicación para dispositivos
+- **What you'll build**: Construiréis una aplicación para dispositivos
   móviles.
 
 - **Prerequisites**: Asumimos que os resultan familiares el lenguaje de
   programación _dart_ y la librería _flutter_.
 
-- **How long**: Este assigment está formado por tres pasos o
+- **How long**: Este assignment está formado por tres pasos o
   _tareas_. La duración estimada de cada tarea es de una semana
   lectiva.
 
@@ -67,7 +67,7 @@ uso_:
 
 ### :wrench: Esta tarea tiene las siguientes partes:
 
-  1. Realizar el diseño de la interface para los casos de uso indicado.
+  1. Realizar el diseño de la interfaz para los casos de uso indicado.
   
 	  - El diseño tiene que incluir diseños adaptados tanto para
         móviles como para tablets.
@@ -76,7 +76,7 @@ uso_:
           resultarán dos diseños distintos: móvil y tablet.
 		  
 	    * Cada diseño debe adaptarse realmente al dispositivo. No es
-          suficiente, por ejemplo, que la versión de tabler sea una
+          suficiente, por ejemplo, que la versión de tablet sea una
           versión ampliada de la de móvil.
 
       - El diseño tiene que incluir los elementos necesarios para la
@@ -103,7 +103,7 @@ uso_:
 
 ### :wrench: Esta tarea tiene las siguientes partes:
 
-  1. Implementar la aplicación siguiendo el diseño de la interface
+  1. Implementar la aplicación siguiendo el diseño de la interfaz
      creado anteriormente.
 	 
 	   - El lenguaje de programación es dart
@@ -122,7 +122,7 @@ uso_:
 
 	> :warning: Los cambios en la implementación deben ir acompañados
 	> del cambio correspondiente en el diseño sw y también podría ser
-	> necesario un cambio en el diseño de la interface gráfica de usuaria
+	> necesario un cambio en el diseño de la interfaz gráfica de usuaria
 	> (_IGU_). En ambos casos, los commits correspondientes debe incluir
 	> las modificaciones de dichos diseños.
 
@@ -131,9 +131,9 @@ uso_:
 	> de usar un dispositivo real, os resultará muy útil una aplicación
 	> como [scrcpy](https://github.com/Genymobile/scrcpy)
 
-	> **Note** En este respositorio se incluye un fichero
+	> **Note** En este repositorio se incluye un fichero
 	> `edaman.dart`. El fichero contiene el código para una aplicación
-	> _CLI_ que realiza consultas al servidor _edaman_. Podeis usar el
+	> _CLI_ que realiza consultas al servidor _edaman_. Podéis usar el
 	> código como consideréis conveniente para el desarrollo de la
 	> práctica.
 
@@ -170,7 +170,7 @@ uso_:
 
 _Congratulations friend, you've completed this assignment!_
 
-Una vez terminada la práctica no olvideis revisar el contenido del
+Una vez terminada la práctica no olvidéis revisar el contenido del
 repositorio en Github y comprobar su correcto funcionamiento antes de
 realizar la defensa.
 
