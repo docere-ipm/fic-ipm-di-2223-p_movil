@@ -9,11 +9,28 @@ La práctica consiste en el desarrollo de una aplicación para
 dispositivos móviles. La aplicación consta de los siguientes _casos de
 uso_:
 
-  - Hacer una cosa
-  
-    > La usuaria hace algo y la aplicación reacciona
-	
-	
+  - Consultar recetas de cocina
+ 
+    > La usuaria indica las recetas que desea consultar introduciendo
+    > los siguientes datos: palabras clave y categorización. La
+    > aplicación realiza una búsqueda en el servidor
+    > [edaman](https://www.edamam.com/) y muestra la lista de recetas
+    > que cumplen los criterios.
+   
+    > :note: Las distintas opciones de categorización son las que
+    > ofrece la _api_ del servidor. Algunos ejemplos: tipo de
+    > alimento, rango de calorías, tipo de cocina, etc.
+   
+  - Consultar una receta en detalle
+ 
+    > La usuaria selecciona una receta concreta y la aplicación
+    > muestra los detalles de esa receta.
+
+
+> :warning: para poder usar el servicio, es necesario registrarse a
+> través de su web y obtener los _tokens_ correspondiente.
+
+
 ## Contributors:
 
 - Apellido1 Apellido2, Nombre : github username : udc username
@@ -93,26 +110,32 @@ uso_:
 	   
 	   - La librería gráfica es flutter.
 
-> :warning: No olvidéis en las operaciones de E/S de informar a la
-> usuaria de todo lo necesario y gestionar los posibles errores.
+	> :warning: No olvidéis en las operaciones de E/S de informar a la
+	> usuaria de todo lo necesario y gestionar los posibles errores.
 
-> :warning: Actualmente flutter soporta múltiples plataformas: linux,
-> web, android, ios, etc. Dado que el resultado de la práctica es una
-> aplicación móvil, tenéis que cercioraros de que la aplicación
-> funciona como se espera en android o/y ios. La defensa de la
-> práctica también se realizará ejecutando la aplicación en alguna de
-> dichas plataformas.
+	> :warning: Actualmente flutter soporta múltiples plataformas: linux,
+	> web, android, ios, etc. Dado que el resultado de la práctica es una
+	> aplicación móvil, tenéis que cercioraros de que la aplicación
+	> funciona como se espera en android o/y ios. La defensa de la
+	> práctica también se realizará ejecutando la aplicación en alguna de
+	> dichas plataformas.
 
-> **Note** Tanto para el desarrollo como para la presentación de la
-> aplicación podéis usar un emulador y/o un dispositivo real. En caso
-> de usar un dispositivo real, os resultará muy útil una aplicación
-> como [scrcpy](https://github.com/Genymobile/scrcpy)
+	> :warning: Los cambios en la implementación deben ir acompañados
+	> del cambio correspondiente en el diseño sw y también podría ser
+	> necesario un cambio en el diseño de la interface gráfica de usuaria
+	> (_IGU_). En ambos casos, los commits correspondientes debe incluir
+	> las modificaciones de dichos diseños.
 
-	 
-> :warning: Estos cambios en la implementación deben ir acompañados
-> del cambio correspondiente en el diseño sw y también podría ser
-> necesario un cambio en el diseño de la interface gráfica de usuaria
-> (_IGU_).
+	> **Note** Tanto para el desarrollo como para la presentación de la
+	> aplicación podéis usar un emulador y/o un dispositivo real. En caso
+	> de usar un dispositivo real, os resultará muy útil una aplicación
+	> como [scrcpy](https://github.com/Genymobile/scrcpy)
+
+	> **Note** En este respositorio se incluye un fichero
+	> `edaman.dart`. El fichero contiene el código para una aplicación
+	> _CLI_ que realiza consultas al servidor _edaman_. Podeis usar el
+	> código como consideréis conveniente para el desarrollo de la
+	> práctica.
 
 
 ### :books: Objetivos de aprendizaje:
@@ -132,7 +155,9 @@ uso_:
 
   1. Implementar los tests _end to end_ para los distintos casos de la
      aplicación.
-  
+
+     - Los tests también deben cubrir los errores de E/S.
+
 ### :books: Objetivos de aprendizaje:
 
   - Tests end to end con interfaces gráficas.
