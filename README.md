@@ -110,32 +110,33 @@ uso_:
 	   
 	   - La librería gráfica es flutter.
 
-	> :warning: No olvidéis en las operaciones de E/S de informar a la
-	> usuaria de todo lo necesario y gestionar los posibles errores.
+     > :warning: No olvidéis en las operaciones de E/S de informar a la
+	 > usuaria de todo lo necesario y gestionar los posibles errores.
 
-	> :warning: Actualmente flutter soporta múltiples plataformas: linux,
-	> web, android, ios, etc. Dado que el resultado de la práctica es una
-	> aplicación móvil, tenéis que cercioraros de que la aplicación
-	> funciona como se espera en android o/y ios. La defensa de la
-	> práctica también se realizará ejecutando la aplicación en alguna de
-	> dichas plataformas.
+	 > :warning: Actualmente flutter soporta múltiples plataformas:
+	 > linux, web, android, ios, etc. Dado que el resultado de la
+	 > práctica es una aplicación móvil, tenéis que cercioraros de que
+	 > la aplicación funciona como se espera en android o/y ios. La
+	 > defensa de la práctica también se realizará ejecutando la
+	 > aplicación en alguna de dichas plataformas.
 
-	> :warning: Los cambios en la implementación deben ir acompañados
-	> del cambio correspondiente en el diseño sw y también podría ser
-	> necesario un cambio en el diseño de la interfaz gráfica de usuaria
-	> (_IGU_). En ambos casos, los commits correspondientes debe incluir
-	> las modificaciones de dichos diseños.
+	 > :warning: Los cambios en la implementación deben ir acompañados
+	 > del cambio correspondiente en el diseño sw y también podría ser
+	 > necesario un cambio en el diseño de la interfaz gráfica de
+	 > usuaria (_IGU_). En ambos casos, los commits correspondientes
+	 > debe incluir las modificaciones de dichos diseños.
 
-	> **Note** Tanto para el desarrollo como para la presentación de la
-	> aplicación podéis usar un emulador y/o un dispositivo real. En caso
-	> de usar un dispositivo real, os resultará muy útil una aplicación
-	> como [scrcpy](https://github.com/Genymobile/scrcpy)
+	 > **Note** Tanto para el desarrollo como para la presentación de
+	 > la aplicación podéis usar un emulador y/o un dispositivo
+	 > real. En caso de usar un dispositivo real, os resultará muy
+	 > útil una aplicación como
+	 > [scrcpy](https://github.com/Genymobile/scrcpy)
 
-	> **Note** En este repositorio se incluye un fichero
-	> `edaman.dart`. El fichero contiene el código para una aplicación
-	> _CLI_ que realiza consultas al servidor _edaman_. Podéis usar el
-	> código como consideréis conveniente para el desarrollo de la
-	> práctica.
+	 > **Note** En este repositorio se incluye un fichero
+	 > `edaman.dart`. El fichero contiene el código para una
+	 > aplicación _CLI_ que realiza consultas al servidor
+	 > _edaman_. Podéis usar el código como consideréis conveniente
+	 > para el desarrollo de la práctica.
 
 
 ### :books: Objetivos de aprendizaje:
